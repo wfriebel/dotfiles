@@ -4,7 +4,6 @@ set -e # Exit on any failure
 
 cp .bash_profile      $HOME/.bash_profile
 cp .gitconfig         $HOME/.gitconfig
-cp .gitignore_global  $HOME/.gitignore_global
 cp .inputrc           $HOME/.inputrc
 
 curl --silent http://levien.com/type/myfonts/Inconsolata.otf -o $HOME/Library/Fonts/Inconsolata.otf
